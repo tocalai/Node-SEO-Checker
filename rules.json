@@ -1,0 +1,41 @@
+{
+    "img" : 
+    {
+        "attrs" : ["alt"],
+        "is_exist" : [0],
+        "enable" : [1]
+    },
+    "a" :
+    {
+        "attrs" : ["rel"],
+        "is_exist" : [0],
+        "enable" : [1] 
+    },
+    "title" :
+    {
+        "root" : "head",
+        "attrs" : [],
+        "is_exist" : [1],
+        "enable" : [1] 
+    },
+    "meta" :
+    {
+        "root" : "head",
+        "attrs" : ["name", "name"],
+        "values" : ["descriptions", "keywords"],
+        "is_exist" : [0, 0],
+        "enable" : [1, 1]
+    },
+    "strong" :
+    {
+        "count" : 15,
+        "sign" : ">=",
+        "enable" : 1
+    },
+    "h1" :
+    {
+        "count" : 1,
+        "sign" : ">=",
+        "enable" : 1
+    }
+}

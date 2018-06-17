@@ -1,0 +1,29 @@
+{
+  "name": "node-seo-checker",
+  "version": "1.0.5",
+  "description": "detect SEO defect according rule.json and export to report",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+      "app.js",
+      "src/",
+      "test/test.html",
+      "config.json",
+      "rules.json",
+      "README.md"
+  ],
+  "keywords": [
+    "seo",
+    "node.js"
+  ],
+  "author": "Danny Lai <tocalai@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "fs": "0.0.1-security",
+    "underscore": "^1.9.1",
+    "when": "^3.7.8"
+  }
+}

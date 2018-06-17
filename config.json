@@ -1,0 +1,21 @@
+{
+    "inputs" :[
+    {
+       "type" : "stream",
+       "file_path" : "D:\\xxxx\\test\\test.html"
+    }
+],
+    "outputs" :[
+    {
+        "type" : "console"
+    },
+    {
+        "type" : "file",
+        "file_path" : "D:\\xxxx\\test\\scan.txt"
+    },
+    {
+        "type" : "stream",
+        "file_path" : "D:\\xxxx\\test\\out_stream.txt"
+    }
+]
+}
